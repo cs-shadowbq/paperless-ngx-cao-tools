@@ -1,0 +1,60 @@
+# Systemd Service Example for pngx-cao Watcher
+#
+# This is an example systemd service unit file for running the pngx-cao
+# document watcher as a background service on Linux systems.
+#
+# Installation:
+#   1. Copy this file to /etc/systemd/system/pngx-cao-watcher.service
+#   2. Edit the paths and settings below to match your environment
+#   3. Run: sudo systemctl daemon-reload
+#   4. Run: sudo systemctl enable pngx-cao-watcher
+#   5. Run: sudo systemctl start pngx-cao-watcher
+#
+# Management:
+#   Start:   sudo systemctl start pngx-cao-watcher
+#   Stop:    sudo systemctl stop pngx-cao-watcher
+#   Restart: sudo systemctl restart pngx-cao-watcher
+#   Status:  sudo systemctl status pngx-cao-watcher
+#   Logs:    sudo journalctl -u pngx-cao-watcher -f
+
+[Unit]
+Description=Paperless-ngx CAO Document Watcher
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=paperless
+Group=paperless
+
+# Set your working directory (where .env file is located)
+WorkingDirectory=/opt/paperless-ngx-tools
+
+# Set the path to your Python virtual environment
+Environment="PATH=/opt/paperless-ngx-tools/.venv/bin:/usr/local/bin:/usr/bin:/bin"
+
+# Watch command with your preferred settings
+ExecStart=/opt/paperless-ngx-tools/.venv/bin/pngx-cao upload watch \
+    /mnt/paperless/originals \
+    --poll-interval 5 \
+    --stability-wait 2 \
+    --duplicate-handling skip
+
+# Restart policy
+Restart=on-failure
+RestartSec=10s
+
+# Security settings (adjust as needed)
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/mnt/paperless/originals
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=pngx-cao-watcher
+
+[Install]
+WantedBy=multi-user.target

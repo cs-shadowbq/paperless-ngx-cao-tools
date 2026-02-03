@@ -1,0 +1,68 @@
+{
+  "id": 1005,
+  "name": "TEST-2024-005",
+  "slug": "test-2024-005",
+  "type": {
+    "id": 1,
+    "slug": "intelligence-report",
+    "name": "Intelligence Report"
+  },
+  "sub_type": {
+    "id": 0
+  },
+  "url": "https://example.com/intelligence/reports/test-2024-005/",
+  "short_description": "COSMIC UNICORN, SHADOW UNICORN, and URBAN CHUPACABRA coordinated campaign targeting multiple industries across all test regions.",
+  "description": "This test report documents an unprecedented coordinated campaign involving three threat actors: COSMIC UNICORN, SHADOW UNICORN, and URBAN CHUPACABRA. The campaign spans multiple industries (Pneumatic Tube Industry, Aether Refineries, Warp Drive Engineering, and Terraform Plants) across all four test regions (Wakanda, Genovia, Agrabah, and Sokovia). The operation demonstrates advanced inter-realm cooperation and shared command-and-control infrastructure. Motivations appear mixed, combining hustle and guilt factors, suggesting internal group conflicts or diverse membership. This represents the most complex test scenario observed to date.",
+  "created_date": 1704412800,
+  "last_modified_date": 1704412800,
+  "actors": [
+    {
+      "name": "COSMIC UNICORN",
+      "id": "TEST-002"
+    },
+    {
+      "name": "SHADOW UNICORN",
+      "id": "TEST-003"
+    },
+    {
+      "name": "URBAN CHUPACABRA",
+      "id": "TEST-007"
+    }
+  ],
+  "target_industries": [
+    {
+      "value": "Pneumatic Tube Industry"
+    },
+    {
+      "value": "Aether Refineries"
+    },
+    {
+      "value": "Warp Drive Engineering"
+    },
+    {
+      "value": "Terraform Plants"
+    }
+  ],
+  "target_countries": [
+    {
+      "value": "Wakanda"
+    },
+    {
+      "value": "Genovia"
+    },
+    {
+      "value": "Agrabah"
+    },
+    {
+      "value": "Sokovia"
+    }
+  ],
+  "motivations": [
+    {
+      "value": "Hustle"
+    },
+    {
+      "value": "Guilt"
+    }
+  ]
+}

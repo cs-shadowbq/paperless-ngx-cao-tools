@@ -1,0 +1,39 @@
+{
+  "id": 9001,
+  "name": "empty-001",
+  "slug": "empty-001",
+  "type": {
+    "id": 1,
+    "slug": "tipper",
+    "name": "Tipper"
+  },
+  "sub_type": {
+    "id": 0
+  },
+  "url": "https://test.example.com/empty-001",
+  "short_description": "Test case for empty (zero-byte) PDF file handling",
+  "description": "This is a test case to verify proper handling of empty PDF files during upload.",
+  "created_date": 1706313600,
+  "last_modified_date": 1706313600,
+  "actors": [
+    {
+      "name": "TEST ACTOR",
+      "id": "TEST-EMPTY"
+    }
+  ],
+  "target_industries": [
+    {
+      "value": "Test Industry"
+    }
+  ],
+  "target_countries": [
+    {
+      "value": "Test Country"
+    }
+  ],
+  "motivations": [
+    {
+      "value": "Testing"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": 1002,
+  "name": "TEST-2024-002",
+  "slug": "test-2024-002",
+  "type": {
+    "id": 1,
+    "slug": "intelligence-report",
+    "name": "Intelligence Report"
+  },
+  "sub_type": {
+    "id": 0
+  },
+  "url": "https://example.com/intelligence/reports/test-2024-002/",
+  "short_description": "GOLDEN GRIFFIN and STORM GRIFFIN coordinated attack on Aether Refineries in Genovia driven by hustle motivation.",
+  "description": "This test report documents a joint operation by GOLDEN GRIFFIN and STORM GRIFFIN threat actors from the Sky Kingdom targeting Aether Refineries in Genovia. The attackers demonstrated advanced cooperation tactics and shared infrastructure. The campaign appears to be financially motivated (hustle) with the goal of disrupting aether production and distribution networks. Technical analysis reveals custom malware frameworks designed specifically for industrial control systems used in aether processing.",
+  "created_date": 1704153600,
+  "last_modified_date": 1704153600,
+  "actors": [
+    {
+      "name": "GOLDEN GRIFFIN",
+      "id": "TEST-004"
+    },
+    {
+      "name": "STORM GRIFFIN",
+      "id": "TEST-005"
+    }
+  ],
+  "target_industries": [
+    {
+      "value": "Aether Refineries"
+    }
+  ],
+  "target_countries": [
+    {
+      "value": "Genovia"
+    }
+  ],
+  "motivations": [
+    {
+      "value": "Hustle"
+    }
+  ]
+}

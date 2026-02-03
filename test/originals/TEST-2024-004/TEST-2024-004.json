@@ -1,0 +1,39 @@
+{
+  "id": 1004,
+  "name": "TEST-2024-004",
+  "slug": "test-2024-004",
+  "type": {
+    "id": 1,
+    "slug": "intelligence-report",
+    "name": "Intelligence Report"
+  },
+  "sub_type": {
+    "id": 0
+  },
+  "url": "https://example.com/intelligence/reports/test-2024-004/",
+  "short_description": "CYBER CHUPACABRA multi-stage attack on Terraform Plants in Sokovia using artistic techniques.",
+  "description": "This test report analyzes a sophisticated multi-stage attack by CYBER CHUPACABRA targeting Terraform Plants infrastructure in Sokovia. The threat actor, operating from the Digital Realm, employed artistic techniques including algorithmically generated malware that adapts to environmental conditions. The campaign demonstrates advanced knowledge of planetary engineering systems and includes custom tooling for manipulating atmospheric processors. The artistic motivation suggests the attacks may be part of a larger performance art piece in the cyber domain.",
+  "created_date": 1704326400,
+  "last_modified_date": 1704326400,
+  "actors": [
+    {
+      "name": "CYBER CHUPACABRA",
+      "id": "TEST-008"
+    }
+  ],
+  "target_industries": [
+    {
+      "value": "Terraform Plants"
+    }
+  ],
+  "target_countries": [
+    {
+      "value": "Sokovia"
+    }
+  ],
+  "motivations": [
+    {
+      "value": "Artistic"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": 1001,
+  "name": "TEST-2024-001",
+  "slug": "test-2024-001",
+  "type": {
+    "id": 1,
+    "slug": "intelligence-report",
+    "name": "Intelligence Report"
+  },
+  "sub_type": {
+    "id": 0
+  },
+  "url": "https://example.com/intelligence/reports/test-2024-001/",
+  "short_description": "Analysis of MYSTIC UNICORN threat actor targeting Pneumatic Tube Industry infrastructure in Wakanda using artistic motivation techniques.",
+  "description": "This test report analyzes a sophisticated campaign by the MYSTIC UNICORN actor group originating from the Fantasy Realm. The group has been observed targeting critical Pneumatic Tube Industry infrastructure in Wakanda using novel artistic techniques to bypass traditional security measures. The attack vectors include enchanted payloads and magical persistence mechanisms that evade conventional detection systems.",
+  "created_date": 1704067200,
+  "last_modified_date": 1704067200,
+  "actors": [
+    {
+      "name": "MYSTIC UNICORN",
+      "id": "TEST-001"
+    }
+  ],
+  "target_industries": [
+    {
+      "value": "Pneumatic Tube Industry"
+    }
+  ],
+  "target_countries": [
+    {
+      "value": "Wakanda"
+    }
+  ],
+  "motivations": [
+    {
+      "value": "Artistic"
+    }
+  ]
+}

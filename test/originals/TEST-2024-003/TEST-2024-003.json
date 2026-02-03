@@ -1,0 +1,39 @@
+{
+  "id": 1003,
+  "name": "TEST-2024-003",
+  "slug": "test-2024-003",
+  "type": {
+    "id": 1,
+    "slug": "intelligence-report",
+    "name": "Intelligence Report"
+  },
+  "sub_type": {
+    "id": 0
+  },
+  "url": "https://example.com/intelligence/reports/test-2024-003/",
+  "short_description": "ANCIENT CHUPACABRA espionage campaign targeting Warp Drive Engineering facilities across Agrabah motivated by guilt.",
+  "description": "This test report examines an unusual espionage campaign attributed to ANCIENT CHUPACABRA, a threat actor from the Desert Wasteland region. The campaign targets Warp Drive Engineering research facilities in Agrabah. Interestingly, the attackers' motivation appears to be guilt-driven, possibly related to previous unauthorized access to sensitive quantum propulsion research. The technical sophistication includes zero-day exploits in temporal shielding systems and advanced data exfiltration through dimensional rifts.",
+  "created_date": 1704240000,
+  "last_modified_date": 1704240000,
+  "actors": [
+    {
+      "name": "ANCIENT CHUPACABRA",
+      "id": "TEST-006"
+    }
+  ],
+  "target_industries": [
+    {
+      "value": "Warp Drive Engineering"
+    }
+  ],
+  "target_countries": [
+    {
+      "value": "Agrabah"
+    }
+  ],
+  "motivations": [
+    {
+      "value": "Guilt"
+    }
+  ]
+}
