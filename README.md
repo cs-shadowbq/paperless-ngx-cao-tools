@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/cs-shadowbq/paperless-ngx-tools/graphs/commit-activity)
 [![Made for Paperless-ngx](https://img.shields.io/badge/Made%20for-Paperless--ngx-blue.svg)](https://docs.paperless-ngx.com/)
-[![Tests](https://github.com/cs-shadowbq/paperless-ngx-tools/actions/workflows/test.yml/badge.svg)](https://github.com/cs-shadowbq/paperless-ngx-tools/actions/workflows/test.yml)
+[![Tests](https://github.com/cs-shadowbq/paperless-ngx-cao-tools/actions/workflows/test.yml/badge.svg)](https://github.com/cs-shadowbq/paperless-ngx-cao-tools/actions/workflows/test.yml)
 
 Command-line tools for managing Paperless-ngx with CrowdStrike CAO threat intelligence reports. Create hierarchical taxonomy tags and upload documents with rich metadata automatically.
 
